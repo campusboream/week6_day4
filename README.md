@@ -30,7 +30,7 @@ Dentro de esta carpeta encontramos un archivo package.json y un archivo webpack.
 Dentro de la carpeta src encontramos un archivo index.html con un sencillo template y una carpeta js, que contiene dos archivos: 
 
 - el index.js que está vacío y tendréis que poblar vosotros, 
-- el service.js, que ya tiene un par de funciones definidas, aunque una de ellas la tendréis que completar. Especial atención al suo de jQuery.
+- el service.js, que ya tiene un par de funciones definidas, aunque una de ellas la tendréis que completar. Especial atención al uso de jQuery.
 
 El ejercicio es el siguiente:
 
