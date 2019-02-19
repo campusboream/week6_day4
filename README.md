@@ -27,12 +27,15 @@ Dentro de esta carpeta encontramos un archivo package.json y un archivo webpack.
 
 - El archivo de webpack contiene una configuración que es necesaria para crear el html final que se sirve en el localhost y además nos permite utilizar los imports de es6.
 
-Dentro de la carpeta src encontramos un archivo index.html con un sencillo template y una carpeta js, que contiene dos archivos: - el index.js que está vacío y tendréis que poblar vosotros, - el service.js, que ya tiene un par de funciones definidas, aunque una de ellas la tendréis que completar. Especial atención al suo de jQuery.
+Dentro de la carpeta src encontramos un archivo index.html con un sencillo template y una carpeta js, que contiene dos archivos: 
+
+- el index.js que está vacío y tendréis que poblar vosotros, 
+- el service.js, que ya tiene un par de funciones definidas, aunque una de ellas la tendréis que completar. Especial atención al suo de jQuery.
 
 El ejercicio es el siguiente:
 
 - Importa las funciones del service.js en el index.js y utilízalas para cambiar el título de la segunda noticia y la foto de la tercera noticia. Si no funcionan, averigua que falta en el archivo service.js
 
-- Crea un archivo service-2.js y crea una función que utilice jQuery para escribir una lista de palabras (las que queráis, pero que sean más de dos) utilizando como base la etiqueta <ul> que hay en el html.
+- Crea un archivo service-2.js y crea una función que utilice jQuery para escribir una lista de palabras (las que queráis, pero que sean más de dos) utilizando como base la etiqueta "ul" que hay en el html.
 
 Según vayáis guardando los cambios en los archivos después de haber lanzado el comando npm start en la terminal, se irán mostrando automáticamente en la página que podéis visitar en localhost:8080.
