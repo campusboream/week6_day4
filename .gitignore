@@ -3,7 +3,7 @@ apply.js
 bind.js
 call.js
 closures.js
-index.html
-index.js
-service.js
+es5/index.html
+es5/index.js
+es5/service.js
 /es6-ejercicio

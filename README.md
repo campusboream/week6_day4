@@ -16,7 +16,7 @@ utiliza la función call para que el valor que salga por consola sea igual a 25.
 
 Estos ejercicios hay que hacerlos dentro de la carpeta es5
 
-- Crear un archivo service.js y declarar en él una función que admita como argumento un array de 10 palabras y que retorne otro array que contenga solo las palabras que empiecen por la letra 'a' del primer array y exportar la función. Luego crear un archivo index.js desde el cual importar la función y utilizarla para sacar por consola el array reusltando.
+- Crear un archivo service.js y declarar en él una función que admita como argumento un array de 10 palabras y que retorne otro array que contenga solo las palabras que empiecen por la letra 'a' del primer array y exportar la función. Luego crear un archivo index.js desde el cual importar la función y utilizarla para sacar por consola el array resultante.
 
 Los siguientes, hay que hacerlos dentro de la carpeta es6:
 
