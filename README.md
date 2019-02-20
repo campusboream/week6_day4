@@ -38,7 +38,7 @@ El ejercicio es el siguiente:
 
 - Crea un archivo service-2.js y crea una función que utilice jQuery para escribir una lista de palabras (las que queráis, pero que sean más de dos) utilizando como base la etiqueta "ul" que hay en el html.
 
-- En el index.js tenemos una función llamada renderCount que de momento no hace nada. En el service tenemos una función llamada increment que tampoco hace nada todavía. Hay que completar la función renderCount para que renderice el número de la propiedad count del objeto en el span con clase "count" y para que ese número vaya incrementando cada vez que hacemos click en el botón de al lado. Para ello debéis utilizar y completar la función increment del service.
+- En el index.js tenemos una función llamada renderCount que de momento no hace nada. En el service tenemos una función llamada increment que tampoco hace nada todavía. Hay que completar la función renderCount para que renderice el número de la propiedad count del objeto en el span con clase "count" y para que ese número vaya incrementando cada vez que hacemos click en el botón de al lado. Para ello debéis utilizar y completar la función increment del service. También podéis crear todas las funciones auxiliares que necesiteis.
 
 Según vayáis guardando los cambios en los archivos después de haber lanzado el comando npm start en la terminal, se irán mostrando automáticamente en la página que podéis visitar en localhost:8080.
 
