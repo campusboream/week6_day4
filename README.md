@@ -14,9 +14,9 @@ utiliza la función call para que el valor que salga por consola sea igual a 25.
 
 # Modules
 
-- Crear un archivo service.js y declarar en él una función que admita como argumento un array de 10 palabras y que retorne otro array que contenga solo las palabras que empiecen por la letra 'a' del primer array y exportar la función. Luego crear un archivo index.js desde el cual importar la función y utilizarla para sacar por consola el array resultante.
-
 Los siguientes ejercicios hay que hacerlos dentro de la carpeta es6:
+
+- Crear un archivo service.js y declarar en él una función que admita como argumento un array de 10 palabras y que retorne otro array que contenga solo las palabras que empiecen por la letra 'a' del primer array y exportar la función. Luego crear un archivo index.js desde el cual importar la función y utilizarla para sacar por consola el array resultante.
 
 Dentro de esta carpeta encontramos un archivo package.json y un archivo webpack.config.js. Explicamos muy por encima cada uno:
 
@@ -30,7 +30,7 @@ Dentro de esta carpeta encontramos un archivo package.json y un archivo webpack.
 Dentro de la carpeta src encontramos un archivo index.html con un sencillo template y una carpeta js, que contiene dos archivos: 
 
 - el index.js que está vacío y tendréis que poblar vosotros, 
-- el service.js, que ya tiene un par de funciones definidas, aunque una de ellas la tendréis que completar. Especial atención al uso de jQuery.
+- el service.js, que ya tiene algunas funciones definidas, aunque dos las tendréis que completar. Especial atención al uso de jQuery.
 
 El ejercicio es el siguiente:
 
@@ -38,4 +38,10 @@ El ejercicio es el siguiente:
 
 - Crea un archivo service-2.js y crea una función que utilice jQuery para escribir una lista de palabras (las que queráis, pero que sean más de dos) utilizando como base la etiqueta "ul" que hay en el html.
 
+- En el index.js tenemos una función llamada renderCount que de momento no hace nada. En el service tenemos una función llamada increment que tampoco hace nada todavía. Hay que completar la función renderCount para que renderice el número de la propiedad count del objeto en el span con clase "count" y para que ese número vaya incrementando cada vez que hacemos click en el botón de al lado. Para ello debéis utilizar y completar la función increment del service.
+
 Según vayáis guardando los cambios en los archivos después de haber lanzado el comando npm start en la terminal, se irán mostrando automáticamente en la página que podéis visitar en localhost:8080.
+
+Todos los ejercicios hay que hacerlos tanto usando los módulos de es6 como los modulos de CommonJS.
+
+
