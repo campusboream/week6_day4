@@ -25,7 +25,7 @@ class Logger {
     }
 ```
 
-Teniendo en cuenta que la función fetch está definida en el objeto window y que la clase Logger de manera natural no tiene acceso a él, utiliza las funciones call y bind al llamar a la función log() para que el resultado NO sea undefined.
+Teniendo en cuenta que la función fetch está definida en el objeto window y que la clase Logger de manera natural no tiene acceso a él, utiliza las funciones call y bind al llamar a la función log() para que el resultado NO sea undefined. Pista: cuando abrimos la consola del navegador e introducimos 'this', nos devuelve el valor del objeto window.
 
 - Dados los siguientes datos:
 
@@ -44,8 +44,6 @@ class AddValues {
 ```
 
 Instancia la clase AddValues y utiliza la función apply para que al llamar a add() con el array de números salga por consola el resultado de la suma de los mismos. Necesitas usar la función apply, que recibe como primer argumento un contexto (que en este caso puede ser null porque no se necesita ninguno en especial) y que recibe como segundo argumento un array de argumentos.
-
-}
 
 # Modules
 
